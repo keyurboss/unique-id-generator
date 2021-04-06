@@ -63,10 +63,3 @@ export class IdGenerator {
     return aa;
   }
 }
-
-const a = new IdGenerator('AAABV');
-let i = 0;
-while (i !== 500) {
-  i++;
-  console.log(a.GetNextID());
-}
