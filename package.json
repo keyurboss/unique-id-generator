@@ -1,12 +1,14 @@
 {
-  "name": "@rps/unique-id-generator",
+  "name": "rps-unique-id-generator",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Unique ID Generator",
+  "main": "dist/index.js",
+  "homepage": "https://github.com/rpsoftech/unique-id-generator.git",
   "scripts": {
     "start": "node -r ts-node/register ./src/index.ts --dev",
     "start:watch": "nodemon",
     "build:type": "tsc",
+    "prepare": "tsc",
     "pack": "node pack.js"
   },
   "keywords": [],
