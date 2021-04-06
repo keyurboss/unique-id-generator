@@ -51,6 +51,10 @@ export class IdGenerator {
     this.currentIdString = nextID;
     return nextID;
   }
+  SetCurrentID(s: string) {
+    this.currentIdString = s;
+    this.currentIdArray = this.GenerateArrayFromStrin(this.currentIdString);
+  }
   private GenerateArrayFromStrin(ss: string) {
     const aa: number[] = [];
     for (var i = 0; i < ss.length; i++) {
