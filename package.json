@@ -1,6 +1,6 @@
 {
   "name": "rps-unique-id-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Unique ID Generator",
   "main": "dist/index.js",
   "homepage": "https://github.com/rpsoftech/unique-id-generator.git",
